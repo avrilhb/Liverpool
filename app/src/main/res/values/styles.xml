@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="SearchView">
+    <style name="SearchAutoCompleteTextView" parent="Widget.AppCompat.SearchView">
         <item name="android:editTextColor">@android:color/black</item>
-        <item name="android:textColorHint">@color/liverpool_brand</item>
     </style>
 </resources>

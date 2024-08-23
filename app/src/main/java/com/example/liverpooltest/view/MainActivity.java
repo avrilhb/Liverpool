@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements SearchContract.Vi
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                if (!newText.isEmpty() && newText != "") {
+                if (!newText.isEmpty() && newText != ""&& newText.length() > 3) {
                     presenter.requestDataFromServer(newText, pageNumber);
                     searchQuery = newText;
                 }
