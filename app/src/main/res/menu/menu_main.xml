@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_main">
+
+    <item
+        android:id="@+id/predefined_search"
+        android:orderInCategory="1"
+        android:title="Predefinida" />
+    <item
+        android:id="@+id/lower_price_search"
+        android:orderInCategory="2"
+        android:title="Menor precio" />
+</menu>

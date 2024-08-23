@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LiverpoolTest</string>
+    <string name="search_hint">Buscar</string>
+    <string name="empty_textview">Búsqueda sin resultados</string>
+</resources>
